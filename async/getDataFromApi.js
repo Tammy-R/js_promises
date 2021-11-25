@@ -31,7 +31,7 @@ const readData = async (ids) => {
 
 };
 
-// kada pozovem f-ju prosledim niz parametara (url-ova, path-ova..) i nakon toga logujem rezultat funkcije
+// kada pozovem f-ju prosledim niz parametara (url-ova npr ili id-eva u ovom slucaju) i nakon toga logujem rezultat funkcije
 readData([21, 33, 45]).then((cats) => {
      console.log(cats);
 });
